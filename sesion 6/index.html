@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SereneStay Hotel & Spa</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">SereneStay</div>
+    <nav class="nav-links">
+      <a href="#experience">Experiencia</a>
+      <a href="#rooms">Habitaciones</a>
+      <a href="#amenities">Amenidades</a>
+      <a href="#reviews">Opiniones</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="slider" id="slider">
+      <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80');"></div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1600&q=80');"></div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1600&q=80');"></div>
+      <div class="hero-content">
+        <span class="eyebrow">Hotel & retiro</span>
+        <h1>Un refugio sereno para descansar, reconectar y renovar.</h1>
+        <p>Vive la experiencia de una estadía diseñada para el descanso total: suites con vista, spa exclusivo, piscina iluminada y gastronomía de autor.</p>
+        <div class="hero-actions">
+          <a class="button-primary" href="#rooms">Reserva ahora</a>
+          <a class="button-secondary" href="#amenities">Ver amenidades</a>
+        </div>
+      </div>
+      <div class="controls">
+        <div class="dots" id="dots"></div>
+        <div class="nav-buttons">
+          <button class="nav-button" id="prevBtn" aria-label="Anterior">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+          </button>
+          <button class="nav-button" id="nextBtn" aria-label="Siguiente">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 1.41 1.41L7.83 10H18v2H7.83l2.58 2.59L9 16l-6-6z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="experience" class="section">
+      <h2>Vive el descanso perfecto</h2>
+      <p class="lead">Nuestro hotel boutique combina diseño contemporáneo, servicios premium y un ambiente relajante para que cada momento sea inolvidable.</p>
+      <div class="grid-3">
+        <article class="card">
+          <h3>Spa terapéutico</h3>
+          <p>Relájate con tratamientos personalizados, saunas, masajes y piscinas con agua caliente en un ambiente de calma total.</p>
+        </article>
+        <article class="card">
+          <h3>Restaurante gourmet</h3>
+          <p>Sabores locales y platos internacionales en un espacio elegante, con opciones saludables y cenas al atardecer.</p>
+        </article>
+        <article class="card">
+          <h3>Vistas de ensueño</h3>
+          <p>Habitaciones con panorámicas únicas, balcones privados y espacios diseñados para desconectar sin perder confort.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="rooms" class="section">
+      <h2>Habitaciones destacadas</h2>
+      <div class="grid-3">
+        <article class="card room-card">
+          <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1000&q=80" alt="Suite de hotel elegante" />
+          <div class="room-info">
+            <h3>Suite Panorámica</h3>
+            <span>Desde $220</span>
+          </div>
+          <p>Amplia suite con terraza privada, bañera de hidromasaje y vistas al jardín central.</p>
+        </article>
+        <article class="card room-card">
+          <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80" alt="Habitación de hotel con cama king" />
+          <div class="room-info">
+            <h3>Habitación Deluxe</h3>
+            <span>Desde $180</span>
+          </div>
+          <p>Espacio moderno con cama king, detalles de madera y un ambiente cálido para un descanso profundo.</p>
+        </article>
+        <article class="card room-card">
+          <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1000&q=80" alt="Zona de descanso con sillón" />
+          <div class="room-info">
+            <h3>Refugio Suite</h3>
+            <span>Desde $250</span>
+          </div>
+          <p>Suite exclusiva con sala privada, minibar premium y servicio de habitación 24 horas.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="amenities" class="section">
+      <h2>Amenidades de lujo</h2>
+      <div class="grid-3">
+        <article class="card">
+          <h3>Piscina iluminada</h3>
+          <p>Un espacio íntimo con piscina climatizada y lounge exterior para noches de descanso.</p>
+        </article>
+        <article class="card">
+          <h3>Bar de cócteles</h3>
+          <p>Cocteles artesanales preparados por mixólogos en un ambiente moderno y acogedor.</p>
+        </article>
+        <article class="card">
+          <h3>Actividades wellness</h3>
+          <p>Yoga al amanecer, meditación guiada y experiencias de bienestar para reconectar con tu energía.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reviews" class="section">
+      <h2>Opiniones de huéspedes</h2>
+      <div class="grid-2">
+        <article class="testimonial">
+          <p>"El mejor descanso que he tenido. El spa y la suite panorámica crearon el ambiente perfecto para desconectar."</p>
+          <footer>
+            <strong>María G.</strong>
+            <span>Estancia de fin de semana</span>
+          </footer>
+        </article>
+        <article class="testimonial">
+          <p>"Atención impecable, desayuno exquisito y un diseño que invita a relajarse desde el primer momento."</p>
+          <footer>
+            <strong>Santiago R.</strong>
+            <span>Escapada romántica</span>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <h2>Reserva tu estadía hoy</h2>
+      <p class="lead">Disfruta de un descanso inolvidable con servicios personalizados y espacios pensados para tu bienestar.</p>
+      <a class="button-primary" href="#" aria-label="Reservar ahora">Reserva ahora</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <strong>SereneStay</strong>
+        <p>Un refugio boutique donde cada detalle está pensado para tu relajación.</p>
+      </div>
+      <div>
+        <strong>Contacto</strong>
+        <p>Email: info@serenestay.com</p>
+        <p>Tel: +34 912 345 678</p>
+      </div>
+      <div>
+        <strong>Ubicación</strong>
+        <p>Calle Tranquila 21, Ciudad Costera</p>
+      </div>
+    </div>
+    <small>© 2026 SereneStay Hotel & Spa. Todos los derechos reservados.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
